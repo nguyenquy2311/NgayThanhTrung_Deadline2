@@ -1,0 +1,245 @@
+/* Phần 1 */
+.container1{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.item_container1{
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#logo{
+    background-color:gainsboro;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-left:40px;
+    height:50px;
+    flex:1;
+    font-weight: bold;
+}
+#menu{
+    background-color:gainsboro;
+    margin: 10px 20px;
+    height:30px;
+    flex:5.5;
+    font-weight: bold;
+}
+#button{
+    background-color:gainsboro;
+    margin-top: 10px;
+    margin-bottom:10px;
+    margin-right:40px;
+    height:35px;
+    flex:1;
+    font-weight: bold;
+}
+h4{
+    padding:0;
+}
+
+
+/* Phần 2 */
+.container2{
+    background-color:rgb(245, 243, 240);
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:30px;
+}
+.item_container2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:gainsboro;
+}
+#content{
+    padding: 100px 60px;
+    margin-top:100px;
+    margin-bottom: 100px;
+    margin-right:15px;
+    margin-left:45px;
+    flex:1;
+}
+#image{
+    padding: 200px 60px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-right:45px;
+    margin-left:15px;
+    flex:1;
+}
+
+/* Phần 3 */
+/* Khung đầu */
+.khungtren_container3{
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+}
+.item1__khungtren_container3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:gainsboro;
+    margin: 12px auto;
+    padding-left:300px;
+    padding-right:300px;
+}
+h1{
+    margin:auto 12px;
+}
+/* Khung dưới */
+.khungduoi_container3{
+    display:flex;
+    align-items:center;
+}
+.item__khungduoi_container3{
+    background-color:gainsboro;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:400px;
+    height:400px;
+    margin-top:50px;
+}
+#item1{
+    margin-left:40px;
+    margin-right:auto;
+}
+#item2{
+    margin:auto;
+    margin-top:49px;
+}
+#item3{
+    margin-left:auto;
+    margin-right:40px;
+}
+/* Khung cuoi */
+.khungcuoi_container3{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top: 35px;
+}
+.item__khungcuoi_container3{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:gainsboro;
+    margin-top:50px;
+    margin-bottom:50px;
+    width:400px;
+    height:400px;
+}
+#item1__khungcuoi_container3{
+    margin-left:40px;
+    margin-right:auto;
+}
+#item2__khungcuoi_container3{
+    margin:auto;
+    margin-top:49px;
+}
+#item3__khungcuoi_container3{
+    margin-left:auto;
+    margin-right:40px;
+}
+/* Phần 4 */
+/* khungdau */
+.khungdau_container4{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:rgb(245, 243, 240);
+    padding-top:40px;
+}
+.title{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:gainsboro;
+    padding-left:300px;
+    padding-right:300px;
+    margin-bottom:20px;
+}
+/* Khungduoi */
+.khungduoi_container4{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgb(245, 243, 240);
+}
+.item__khungduoi_container4{
+    background-color:gainsboro;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:200px;
+    height:200px;
+    margin:10px;
+    margin-top:40px;
+    margin-bottom:40px;
+}
+#item1__khungduoi_container4{
+    margin-left:40px;
+}
+#item6__khungduoi_container4{
+    margin-right:40px;
+}
+
+/* Phần 5 */
+/* Khung trên */
+.khungtren_container5{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}
+.title__khungtren_container5{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:gainsboro;
+    padding-left:300px;
+    padding-right:300px;
+}
+/* Khung dưới */
+.khungduoi_container5{
+    display:flex;
+    align-items:center;
+}
+.item__khungduoi_container5{
+    background-color:gainsboro;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:300px;
+    height:300px;
+    margin-top:50px;
+}
+#item1__khungduoi_container5{
+    margin-left:40px;
+    margin-right:auto;
+}
+#item2__khungduoi_container5{
+    margin:auto;
+    margin-top:50px;
+}
+#item3__khungduoi_container5{
+    margin:auto;
+    margin-top:50px;
+}
+#item4__khungduoi_container5{
+    margin-right:40px;
+    margin-left:auto;
+}
+
+/* Phần 6 */
+.container6{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:gainsboro;
+    margin-top:30px;
+}
